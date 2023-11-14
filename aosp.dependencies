@@ -2,13 +2,13 @@
    {
       "repository":"vendor_samsung_a72q",
       "target_path":"vendor/samsung/a72q",
-      "branch":"thirteen",
+      "branch":"fourteen",
       "remote":"pixel-devices-blobs"
    },
    {
       "repository":"device_samsung_sm7125-common",
       "target_path":"device/samsung/sm7125-common",
-      "branch":"thirteen-plus",
+      "branch":"fourteen",
       "remote":"pixel-devices"
    }
 ]
