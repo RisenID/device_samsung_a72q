@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a72q.mk
+    $(LOCAL_DIR)/lineage_a72q.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_a72q-userdebug \
-    aosp_a72q-user \
-    aosp_a72q-eng
+    lineage_a72q-userdebug \
+    lineage_a72q-user \
+    lineage_a72q-eng
