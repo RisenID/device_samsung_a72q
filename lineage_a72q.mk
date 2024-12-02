@@ -47,8 +47,9 @@ TARGET_USES_AOSP_RECOVERY := true
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Fingerprint
-BUILD_FINGERPRINT := "samsung/a72qnsxx/a72q:11/RP1A.200720.012/A725FXXSAFXJ1:user/release-keys"
-PRIVATE_BUILD_DESC := "a72qnsxx-user 11 RP1A.200720.012 A725FXXSAFXJ1 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildFingerprint="samsung/a72qnsxx/a72q:11/RP1A.200720.012/A725FXXSAFXJ1:user/release-keys" \
+	BuildDesc="a72qnsxx-user 11 RP1A.200720.012 A725FXXSAFXJ1 release-keys"
 
 # Security patch
 VENDOR_SECURITY_PATCH := 2023-12-01
